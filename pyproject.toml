@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "python-webscraping"
+version = "0.1.0"
+description = ""
+authors = ["Koray Özdemir <koray-oezdemir@t-online.de>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+requests = "^2.31.0"
+beautifulsoup4 = "^4.12.3"
+pandas = "^2.2.2"
+openpyxl = "^3.1.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.poetry.scripts]
+scrape = 'python_webscraping.scraper:run'
