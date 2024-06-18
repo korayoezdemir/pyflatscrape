@@ -1,4 +1,4 @@
-PHONY: install run-ebay
+PHONY: install run-ebay run-immoscout
 install:
 	poetry install
 
